@@ -28,3 +28,12 @@
 @function font($path, $base: $base-url) {
   @return asset($base, 'fonts/', $path);
 }
+
+//Set Text Color change based on bg color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
