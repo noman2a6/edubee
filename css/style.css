@@ -307,7 +307,8 @@ template {
  * Set up a decent box model on the root element
  */
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 62.5%; }
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
@@ -335,7 +336,8 @@ a {
  */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "Inter", "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400; }
 
 /**
  * Clear inner floats
