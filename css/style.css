@@ -325,7 +325,7 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #000247;
   text-decoration: none; }
   a:hover, a:active, a:focus {
     color: #222222;
@@ -354,7 +354,7 @@ body {
  * 3. Leave some space on the edges, especially valuable on small screens
  */
 .container {
-  max-width: 1180px;
+  max-width: 1280px;
   /* 1 */
   margin-left: auto;
   /* 2 */
