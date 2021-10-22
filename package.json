@@ -1,0 +1,45 @@
+{
+  "name": "edubee",
+  "version": "1.0.0",
+  "description": "E-Learning Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noman2a6/edubee.git"
+  },
+  "keywords": [
+    "courses",
+    "coaching",
+    "e-learning",
+    "education",
+    "Education",
+    "theme",
+    "education",
+    "html5",
+    "theme",
+    "learning",
+    "learning",
+    "management",
+    "system",
+    "online",
+    "classes",
+    "online",
+    "courses",
+    "online",
+    "tests",
+    "online",
+    "education"
+  ],
+  "author": "Fourthpack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noman2a6/edubee/issues"
+  },
+  "homepage": "https://github.com/noman2a6/edubee#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
