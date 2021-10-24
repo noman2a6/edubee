@@ -20,19 +20,19 @@ $text-color: #222222 !default;
 /// @type Color
 $primary-color: #000247 !default;
 $secondary-color: #377dff !default;
-$tertiary-color: #181a33;
+$tertiary-color: #181a33 !default;
 
 /// Light grey
 /// @type Color
-$light-grey: #ededed !default;
+$light-grey: #ededed  !default;
 
 /// Medium grey
 /// @type Color
-$mid-grey: #999999 !default;
+$mid-grey: #999 !default;
 
 /// Dark grey
 /// @type Color
-$dark-grey: #444444 !default;
+$dark-grey: #444 !default;
 
 /// Container's maximum width
 /// @type Length

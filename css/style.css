@@ -334,10 +334,50 @@ a {
 /**
  * Basic typography style for copy text
  */
+/*
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font Weights: 
+Default: 400
+
+- Line heights:
+Default: 1.15
+
+---  02 COLORS
+
+- Primary: #000247
+- Tints/Secondary: #377dff
+- Shades/tertiary: #181a33
+- Accents:
+- Light Grey: #ededed
+- Mid Grey: #999
+- Dark Grey: #444
+
+--- 03 IMAGES
+img folder included
+
+--- 04 ICONS
+font-family: 'Inter', sans-serif;
+
+--- 05 SHADOWS
+
+--- 06 BORDER RADIUS
+
+--- 07 WHITESPACE
+
+- Spacing System (px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+ */
 body {
-  color: #222222;
   font-family: "Inter", "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #222222; }
 
 /**
  * Clear inner floats
