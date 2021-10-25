@@ -115,6 +115,7 @@ body {
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+  transition: background-color 0.3s;
 }
 
 .btn--full:link,
@@ -123,12 +124,28 @@ body {
   color: #fff;
 }
 
+.btn--full:hover,
+.btn--full:active {
+  background-color: #285ab8;
+  color: #fff;
+}
+
 .btn--outline:link,
 .btn--outline:visited {
+  background-color: #d6e3fa;
+  color: #000247;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
   background-color: #fff;
   color: #000247;
 }
 
 .hero-img {
   width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
