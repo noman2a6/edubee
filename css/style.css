@@ -8,14 +8,14 @@
 Default: 400
 
 - Line heights:
-Default: 1.15
+Default: 1
 
 ---  02 COLORS
 
 - Primary: #000247
 - Tints/Secondary: #377dff
 - Shades/tertiary: #181a33
-- Accents:
+- Accents: #ffb701
 - Light Grey: #ededed
 - Mid Grey: #999
 - Dark Grey: #444
@@ -37,46 +37,30 @@ font-family: 'Inter', sans-serif;
 
 */
 
-html {
-  /* Percentage of user's browser font-size setting */
-  font-size: 62.5%;
-}
-
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
+}
+
+html {
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
 }
 
 body {
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  line-height: 1.15;
-  color: #222222;
+  line-height: 1;
+  color: #222;
 }
 
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 600;
-  line-height: 1.05;
-  color: #222222;
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
-}
-
-.heading-tertiary {
-  font-size: 1.6rem;
-  font-weight: 600;
-  line-height: 1.5;
-  text-transform: capitalize;
-  margin-bottom: 2.4rem;
-}
-
-.hero-description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
+.section-hero {
+  background-color: #000247;
+  padding: 9.6rem 0;
 }
 
 .hero {
@@ -84,10 +68,67 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
   align-items: center;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 3.2rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 600;
+  line-height: 1.05;
+  color: #fff;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.heading-brand {
+  display: inline-block;
+  background: #ffb701;
+  text-align: center;
+  padding: 0 1rem;
+  border-radius: 9px;
+  margin: 1rem 0;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #999;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #377dff;
+  color: #fff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #000247;
 }
 
 .hero-img {
   width: 100%;
 }
-
