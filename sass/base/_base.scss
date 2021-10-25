@@ -6,7 +6,7 @@
  * Set up a decent box model on the root element
  */
 html {
-  box-sizing: border-box;
+  /* Percentage of user's browser font-size setting */
   font-size: 62.5%; //10px=(10px/16px=0.625)=(0.625*16=10)
 }
 
