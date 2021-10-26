@@ -6,9 +6,16 @@
 
 - Font Weights: 
 Default: 400
+Medium:500
+Semi-bold:600
+Bold:700
+
 
 - Line heights:
 Default: 1
+Small: 1.05
+Paragraph default: 1.06
+
 
 ---  02 COLORS
 
@@ -29,6 +36,7 @@ font-family: 'Inter', sans-serif;
 --- 05 SHADOWS
 
 --- 06 BORDER RADIUS
+Default: 9px
 
 --- 07 WHITESPACE
 
@@ -58,31 +66,12 @@ body {
   color: #222;
 }
 
-.section-hero {
-  background-color: #000247;
-  padding: 9.6rem 0;
-}
-
-.hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
-  align-items: center;
-}
-
-.heading-tertiary {
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.6;
-  color: #fff;
-  text-transform: capitalize;
-  margin-bottom: 3.2rem;
-}
+/* ******************************** */
+/* GENRAL REUSABLE COMPONENTS */
+/* ******************************** */
 
 .heading-primary {
-  font-size: 5.2rem;
+  font-size: 4.4rem;
   font-weight: 600;
   line-height: 1.05;
   color: #fff;
@@ -90,20 +79,13 @@ body {
   margin-bottom: 3.2rem;
 }
 
-.heading-brand {
-  display: inline-block;
-  background: #ffb701;
-  text-align: center;
-  padding: 0 1rem;
-  border-radius: 9px;
-  margin: 1rem 0;
-}
-
-.hero-description {
+.heading-tertiary {
   font-size: 2rem;
+  font-weight: 600;
   line-height: 1.6;
   color: #999;
-  margin-bottom: 4.8rem;
+  text-transform: capitalize;
+  margin-bottom: 3.2rem;
 }
 
 .btn:link,
@@ -115,7 +97,7 @@ body {
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .btn--full:link,
@@ -142,12 +124,104 @@ body {
   color: #000247;
 }
 
-.hero-img {
-  width: 100%;
-}
-
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+/* ******************************** */
+/* HEADER */
+/* ******************************** */
+
+.header {
+  background-color: #000247;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* We want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: auto;
+}
+
+/* ******************************** */
+/* NAVIGATION */
+/* ******************************** */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #377dff;
+}
+
+.main-nav-link .nav-icon {
+  stroke: #fff;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.main-nav-link .nav-icon:hover,
+.main-nav-link .nav-icon:active {
+  stroke: #377dff;
+}
+
+/* ******************************** */
+/* HERO SECTION */
+/* ******************************** */
+
+.section-hero {
+  background-color: #000247;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.heading-brand {
+  display: inline-block;
+  background: #ffb701;
+  text-align: center;
+  padding: 0 1rem;
+  border-radius: 9px;
+  margin: 1rem 0;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #999;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .joined-student {
@@ -172,6 +246,7 @@ body {
 .joined-imgs img:last-child {
   margin: 0;
 }
+
 .joined-text {
   font-size: 1.8rem;
   font-weight: 600;
@@ -182,3 +257,7 @@ body {
   color: #377dff;
   font-weight: 700;
 }
+
+/* ******************************** */
+/* ..... */
+/* ******************************** */
