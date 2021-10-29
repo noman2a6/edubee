@@ -1,4 +1,3 @@
-
 /* ******************************** */
 /* HEADER */
 /* ******************************** */
@@ -176,6 +175,54 @@
 /* ******************************** */
 
 .section-catgories {
-  padding: 9.6rem 0;
+  padding: 9.6rem 3.2rem;
   text-align: center;
 }
+
+.section-catgories h2 {
+  margin-bottom: 3.6rem;
+}
+.category-boxes {
+  margin: 0 auto;
+}
+
+.category-box {
+  position: relative;
+  cursor: pointer;
+}
+
+.category-img {
+  display: block;
+}
+
+.category-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.category-name {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.course-count {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* ******************************** */
+/* SECTION ... */
+/* ******************************** */
