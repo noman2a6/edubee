@@ -98,6 +98,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--center-v {
+  align-items: center;
+}
+
 .heading-primary,
 .heading-secondary {
   font-weight: 600;

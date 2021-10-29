@@ -172,6 +172,10 @@
 }
 
 /* ******************************** */
-/* SECTION ... */
+/* SECTION CATGORIES */
 /* ******************************** */
 
+.section-catgories {
+  padding: 9.6rem 0;
+  text-align: center;
+}
