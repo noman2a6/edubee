@@ -175,7 +175,7 @@
 /* ******************************** */
 
 .section-catgories {
-  padding: 9.6rem 3.2rem;
+  padding: 6.4rem 3.2rem 9.6rem;
   text-align: center;
 }
 
@@ -189,6 +189,7 @@
 .category-box {
   position: relative;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .category-img {
