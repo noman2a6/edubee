@@ -229,7 +229,7 @@
 /* ******************************** */
 
 .section-popular-courses {
-  padding: 6.4rem 3.2rem 9.6rem;
+  padding: 3.2rem 3.2rem 9.6rem;
 }
 
 .heading-left {
@@ -240,6 +240,7 @@
 }
 
 .course-boxes {
+  padding: 2.4rem 0;
 }
 
 .course-box {
@@ -324,4 +325,9 @@
   height: 1.4rem;
   text-align: center;
   stroke: #377dff;
+}
+
+.course-btn {
+  text-align: center;
+  margin-top: 3.2rem;
 }
