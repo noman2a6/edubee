@@ -225,5 +225,18 @@
 }
 
 /* ******************************** */
-/* SECTION ... */
+/* SECTION POPULAR COURSES */
 /* ******************************** */
+
+.section-popular-courses {
+  padding: 6.4rem 3.2rem 9.6rem;
+}
+
+.heading-left{
+
+}
+.heading-right{
+  align-self: center;
+  justify-self: end;
+}
+
