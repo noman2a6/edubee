@@ -194,6 +194,8 @@
 
 .category-img {
   display: block;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
 }
 
 .category-text {
@@ -224,6 +226,10 @@
   font-weight: 500;
 }
 
+.category-box:hover .category-img {
+  transform: scale(1.1);
+}
+
 /* ******************************** */
 /* SECTION POPULAR COURSES */
 /* ******************************** */
@@ -245,6 +251,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
   border-radius: 11px;
   overflow: hidden;
+  /* transition: all 0.3s; */
 }
 
 .course-box-img {
@@ -330,6 +337,10 @@
   margin-top: 3.2rem;
 }
 
+/* .course-box:hover .course-price {
+  transform: scale(1.1);
+} */
+
 /* ******************************** */
 /* SECTION ONLINE TUTORIAL */
 /* ******************************** */
@@ -404,7 +415,7 @@
   border: 1px solid #ececec;
   border-radius: 5px;
   padding: 1.5rem;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .instructor-media {
 }
@@ -424,14 +435,14 @@
   font-size: 1.6rem;
   color: #377dff;
   font-weight: 600;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .instructor-course-name {
   font-size: 1.6rem;
   color: #000247;
   font-weight: 400;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .instructor-ratings {
@@ -445,7 +456,7 @@
   font-weight: 600;
 }
 
-.ratings-icon{
+.ratings-icon {
   width: 1.4rem;
   height: 1.4rem;
   color: #ffb701;
@@ -472,15 +483,15 @@
   font-size: 1.4rem;
   font-weight: 400;
   justify-self: center;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .instructor-courses a:link,
- .instructor-courses a:visited{
+.instructor-courses a:visited {
   display: block;
   text-decoration: none;
   color: #999;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .instructor-box:hover {
@@ -488,11 +499,11 @@
   border: 1px solid #e6e6e6;
 }
 
-.instructor-box:hover .instructor-name{
+.instructor-box:hover .instructor-name {
   color: #000247;
 }
 
-.instructor-box:hover .instructor-course-name{
+.instructor-box:hover .instructor-course-name {
   color: #377dff;
 }
 
@@ -501,3 +512,11 @@
   color: #377dff;
   border-bottom: 1px solid #377dff;
 }
+
+/* ******************************** */
+/* SECTION ... */
+/* ******************************** */
+
+/* . {
+  padding: 9.6rem 3.2rem 9.6rem;
+} */
