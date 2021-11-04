@@ -295,6 +295,7 @@
   align-self: center;
   font-weight: 400;
 }
+
 .course-box-content .heading-tertiary {
   margin: 0;
   font-size: 1.8rem;
@@ -313,6 +314,7 @@
   padding: 1rem 0.5rem;
   border-top: 1px solid #dfe2e9;
 }
+
 .course-les {
   display: inline-block;
   font-size: 1.4rem;
@@ -406,8 +408,9 @@
   padding: 9.6rem 3.2rem 9.6rem;
 }
 
-.instructors-boxes {
-}
+/* .instructors-boxes {
+} */
+
 .instructor-box {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
@@ -417,8 +420,9 @@
   padding: 1.5rem;
   transition: all 0.3s ease-in-out;
 }
-.instructor-media {
-}
+
+/* .instructor-media {
+} */
 
 .instructor-img {
   width: 70%;
