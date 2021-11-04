@@ -56,6 +56,11 @@ Default: 9px
   box-sizing: inherit;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(55, 125, 255, 0.5);
+}
+
 html {
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
@@ -190,4 +195,3 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
-
