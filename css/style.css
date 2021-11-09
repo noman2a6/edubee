@@ -754,7 +754,6 @@
   color: #000247;
 }
 
-
 /* ******************************** */
 /* COURSES PAGE START HERE */
 /* ******************************** */
@@ -763,7 +762,7 @@
 /* SECTION SECONDARY BG HEADER */
 /* ******************************** */
 
-.secondary-heading{
+.secondary-heading {
   margin-bottom: 3.2rem;
 }
 
@@ -772,7 +771,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 18rem;
+  min-height: 15rem;
 }
 
 .bgimg-breadcumber .heading-tertiary {
@@ -783,8 +782,61 @@
   padding-top: 6rem;
 }
 
+/* ******************************** */
+/* SECTION COURSES FILTER */
+/* ******************************** */
+
+/* .courses-filter {
+  padding: 2.4rem 0;
+} */
+
+.filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.75fr;
+  justify-items: center;
+}
+
+.filter-heading-main {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 600;
+  color: #000247;
+  padding-bottom: 3.2rem;
+}
+
+.filter-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000247;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #767676;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.filter-data {
+  list-style-type: none;
+}
+
+.filter-data:focus {
+  box-shadow: none;
+}
+
+.filter-item {
+  display: block;
+  color: #767676;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+}
+
+.filter-item-txt {
+  padding-left: 0.5rem;
+}
+
+.filter-data--count {
+  padding-left: 0.3rem;
+}
 
 /* ******************************** */
 /* ABOUT US PAGE START HERE */
 /* ******************************** */
-

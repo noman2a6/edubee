@@ -58,7 +58,7 @@ Default: 9px
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(55, 125, 255, 0.5);
+  /* box-shadow: 0 0 0 0.8rem rgba(55, 125, 255, 0.5); */
 }
 
 html {
