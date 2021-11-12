@@ -883,15 +883,16 @@
   box-shadow: 0 6px 5px -5px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
+
 .dropdown a,
 .dropdown.toggle > label {
   display: block;
-  padding: 0 0 0 10px;
+  padding: 0 0 0 1rem;
   text-decoration: none;
-  line-height: 40px;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: bold;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
   color: #000247;
   background-color: #fff;
 }
@@ -901,15 +902,23 @@
   overflow: hidden;
   transition: all 500ms;
 }
+
 .dropdown.hover li {
   transition-delay: 300ms;
 }
+
 .dropdown li:first-child a {
   border-radius: 2px 2px 0 0;
 }
+
 .dropdown li:last-child a {
   border-radius: 0 0 2px 2px;
 }
+
+.dropdown li:nth-child(1){
+ margin-bottom: .8rem;
+}
+
 .dropdown li:first-child a::before {
   content: '';
   display: block;
@@ -928,76 +937,30 @@
   background-color: #eee;
   color: #666;
 }
+
 .dropdown > a:hover::after,
 .dropdown.toggle > label:hover::after,
 .dropdown.toggle > input:checked ~ label::after {
   border-top-color: #aaa;
 }
+
 .dropdown li:first-child a:hover::before {
   border-bottom-color: #eee;
 }
+
 .dropdown.hover:hover li,
 .dropdown.toggle > input:checked ~ ul li {
   height: 40px;
 }
+
 .dropdown.hover:hover li:first-child,
 .dropdown.toggle > input:checked ~ ul li:first-child {
   padding-top: 15px;
 }
 
-/* *Old Filter Section */
-
-/* .courses-filter {
-  padding: 2.4rem 0;
-} */
-
-/* 
-.filter {
-  display: grid;
-  grid-template-columns: 1fr 1fr 0.75fr;
-  justify-items: center;
+.filter-label {
+  margin-left: .5rem;
 }
-
-.filter-heading-main {
-  font-size: 2.4rem;
-  text-align: center;
-  font-weight: 600;
-  color: #000247;
-  padding-bottom: 3.2rem;
-}
-
-.filter-heading {
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: #000247;
-  padding-bottom: 0.6rem;
-  border-bottom: 1px solid #767676;
-  display: inline-block;
-  margin-bottom: 2rem;
-}
-
-.filter-data {
-  list-style-type: none;
-}
-
-.filter-data:focus {
-  box-shadow: none;
-}
-
-.filter-item {
-  display: block;
-  color: #767676;
-  font-size: 1.6rem;
-  padding: 0.5rem 0;
-}
-
-.filter-item-txt {
-  padding-left: 0.5rem;
-}
-
-.filter-data--count {
-  padding-left: 0.3rem;
-} */
 
 /* ******************************** */
 /* ABOUT US PAGE START HERE */
