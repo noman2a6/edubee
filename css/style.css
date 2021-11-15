@@ -258,15 +258,17 @@
 .course-box-img {
   position: relative;
 }
+
 .course-img {
   width: 100%;
 }
+
 .course-price {
   position: absolute;
   top: inherit;
   bottom: -2.5rem;
   right: 0;
-  z-index: 999;
+  /* z-index: 10; */
   padding: 1.5rem 0;
   margin: 2.4rem 1.5rem 0 0;
   line-height: 3.2rem;
@@ -302,6 +304,12 @@
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.4;
+}
+
+.course-box-content .heading-tertiary a:link,
+.course-box-content .heading-tertiary a:visited {
+  text-decoration: none;
+  color: #000247;
 }
 
 .course-box-content .description {
@@ -459,6 +467,10 @@
   font-size: 1.4rem;
   color: #000247;
   font-weight: 600;
+}
+
+.ratings {
+  padding-right: 1rem;
 }
 
 .ratings-icon {
@@ -915,8 +927,8 @@
   border-radius: 0 0 2px 2px;
 }
 
-.dropdown li:nth-child(1){
- margin-bottom: .8rem;
+.dropdown li:nth-child(1) {
+  margin-bottom: 0.8rem;
 }
 
 .dropdown li:first-child a::before {
@@ -959,9 +971,101 @@
 }
 
 .filter-label {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 /* ******************************** */
-/* ABOUT US PAGE START HERE */
+/* COURSE-DETAILS PAGE START HERE */
 /* ******************************** */
+
+.single-course {
+  padding: 9.6rem 3.2rem;
+}
+
+.overview-course {
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+}
+
+.overview-course-left-side {
+}
+
+.overview-heading-content {
+  margin-bottom: 3.2rem;
+}
+
+.overview-heading-content .heading-secondary {
+  font-size: 3.4rem;
+}
+
+.rating-section {
+  margin-bottom: 1.8rem;
+}
+
+.overview-heading-content .ratings {
+  font-size: 1.6rem;
+}
+.total-ratings,
+.total-students {
+  font-size: 1.6rem;
+  color: #767676;
+  padding-left: 1rem;
+}
+
+.creator-section {
+  display: flex;
+  margin-bottom: 1.8rem;
+}
+
+.created-by {
+  font-size: 1.6rem;
+  color: #767676;
+  padding-right: 2rem;
+  border-right: 1px solid #aaa;
+}
+
+.created-by a:link,
+.created-by a:visited {
+  text-decoration: none;
+  color: #000247;
+  transition: all 0.4s;
+}
+
+.created-by a:hover,
+.created-by a:active {
+  color: #377dff;
+  border-bottom: 1px solid #377dff;
+}
+
+.created-time-update {
+  font-size: 1.6rem;
+  color: #767676;
+  padding-left: 2rem;
+}
+
+/* *Overview Tab Section Start Here */
+
+.overview-tab-sec {
+}
+
+.tab-nav {
+}
+
+.tab {
+
+}
+
+.tablinks{
+
+}
+
+.tab-txt {
+}
+
+.tabcontent {
+  
+}
+
+/* *Overview Right Side */
+.overview-course-right-side {
+}
