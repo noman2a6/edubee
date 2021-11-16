@@ -979,7 +979,7 @@
 /* ******************************** */
 
 .single-course {
-  padding: 9.6rem 3.2rem;
+  padding: 9.6rem 3.2rem 12.8rem;
 }
 
 .overview-course {
@@ -991,7 +991,7 @@
 }
 
 .overview-heading-content {
-  margin-bottom: 3.2rem;
+  margin-bottom: 4.8rem;
 }
 
 .overview-heading-content .heading-secondary {
@@ -1048,23 +1048,85 @@
 .overview-tab-sec {
 }
 
+/* Tab Nav */
+
 .tab-nav {
+  margin-bottom: 4.8rem;
 }
 
 .tab {
-
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 0 2rem rgba(51, 51, 51, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
-.tablinks{
-
+.tablinks {
+  font-size: 1.6rem;
+  color: #000247;
+  font-weight: 500;
+  padding: 2.4rem 0;
+  cursor: pointer;
+  transition: all 0.1s;
 }
+
+/* .tablinks:hover {
+  border-bottom: 2px solid #377dff;
+} */
+
+.tab > li.active {
+  color: #377dff;
+}
+
+/* Tab Content */
 
 .tab-txt {
 }
 
 .tabcontent {
-  
+  display: none;
 }
+
+.overview-section {
+}
+
+.overview-top .heading-tertiary,
+.overview-bottom .heading-tertiary {
+  margin: 3.2rem 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.overview-section .p-1,
+.overview-section .p-2 {
+  margin-bottom: 3.2rem;
+  line-height: 1.8;
+}
+
+.overview-section .p-2 {
+  margin-bottom: 4.8rem;
+}
+
+.what-learn .learn-sent {
+  margin-bottom: 1.6rem;
+}
+
+.what-learn .what-learn-icon {
+  font-size: 1.3rem;
+  color: #818a91;
+  margin-right: 0.7rem;
+}
+
+.what-learn .what-learn-txt {
+  font-size: 1.6rem;
+  color: #999;
+}
+
+/* Overview Section End Here */
+
+
 
 /* *Overview Right Side */
 .overview-course-right-side {
