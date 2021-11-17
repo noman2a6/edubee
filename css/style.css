@@ -646,6 +646,7 @@
 .newsletter-content .newsletter-form {
   align-self: center;
   justify-self: normal;
+  position: relative;
 }
 
 .newsletter-form input[type='email'] {
@@ -660,7 +661,6 @@
   border-bottom-left-radius: 9px;
   box-shadow: 0 0 4rem 0 rgba(0, 0, 0, 0.15);
   margin-left: 6rem;
-  position: relative;
 }
 
 .newsletter-form input[type='submit'] {
