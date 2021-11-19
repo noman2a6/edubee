@@ -1167,7 +1167,7 @@
   transition: all 0.3s;
   border-radius: 5px;
   border: 1px solid #eee;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .curriculum-active,
@@ -1188,7 +1188,7 @@
 }
 
 .panel {
-  padding: 0 18px;
+  /* padding: 0 18px; */
   background-color: #fff;
   max-height: 0;
   overflow: hidden;
@@ -1198,6 +1198,72 @@
   line-height: 1.8;
 }
 
+.panel-list {
+  list-style-type: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.curri-sec-list {
+  padding: 1.6rem 2rem;
+}
+
+.curri-sec-list:nth-child(odd) {
+  background-color: #f7f8fa;
+}
+
+.curri-sec-list a:link,
+.curri-sec-list a:visited {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 0.2fr 4fr 2fr;
+}
+
+.curri-sec-list-icon {
+  align-self: center;
+}
+
+.curri-icon {
+  font-size: 1.5rem;
+  color: #377dff;
+}
+
+.curri-sec-list-content {
+  color: #767676;
+}
+
+.curri-sec-list-action {
+  justify-self: end;
+}
+
+.curri-preview {
+  color: #fff;
+  background-color: #37bb76;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  margin-right: 0.7rem;
+}
+
+.curri-duration {
+  color: #000247;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: #eceff6;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+
+.curri-lock {
+  margin-right: 0.7rem;
+}
+
+.curri-preview--blue {
+  background-color: #377dff;
+}
+
+/* Curriculum Section End Here */
 
 /* *Overview Right Side */
 .overview-course-right-side {
