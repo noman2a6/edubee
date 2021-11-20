@@ -1334,6 +1334,10 @@
   border-bottom: 1px solid #377dff;
 }
 
+.instructor-social-links {
+  margin-bottom: 3.2rem;
+}
+
 .instructor-about-me .description {
   font-size: 1.6rem;
   margin-bottom: 1.4rem;
