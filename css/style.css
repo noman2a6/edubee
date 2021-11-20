@@ -1145,7 +1145,7 @@
   color: #999;
 }
 
-/* Overview Section End Here */
+/* *Overview Section End Here */
 
 .curriculum-section {
   display: flex;
@@ -1263,7 +1263,87 @@
   background-color: #377dff;
 }
 
-/* Curriculum Section End Here */
+/* *Curriculum Section End Here */
+
+.instructor-info .heading-secondary {
+  margin-bottom: 1rem;
+}
+
+.instructor-info .description {
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.instructor-info-details {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  column-gap: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.instructor-info-left {
+  align-self: center;
+}
+
+.instructor-info-img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.instructor-info-right {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 1.4rem;
+}
+
+.instructor-info-cou {
+}
+
+.instructor-info-stu {
+}
+
+.instructor-info-avrev {
+}
+
+.instructor-info-icon {
+  color: #377dff;
+  font-size: 1.5rem;
+}
+
+.instructor-info-rev .instructor-info-icon {
+  color: orange;
+}
+
+.instructor-info-content {
+  color: #767676;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
+
+.instructor-info-cou-count:link,
+.instructor-info-cou-count:visited {
+  text-decoration: none;
+  color: #000247;
+  transition: all 0.3s;
+}
+
+.instructor-info-cou-count:hover,
+.instructor-info-cou-count:active {
+  color: #377dff;
+  border-bottom: 1px solid #377dff;
+}
+
+.instructor-about-me .description {
+  font-size: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+
+/* *Instructor Section End Here */
+
+/* *Reviews Section End Here */
+
+/* *FAQ Section End Here */
 
 /* *Overview Right Side */
 .overview-course-right-side {
