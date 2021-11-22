@@ -1345,6 +1345,123 @@
 
 /* *Instructor Section End Here */
 
+.reviews-sta {
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  column-gap: 1rem;
+  margin-bottom: 4.8rem;
+}
+
+.rev-sta-left {
+  display: grid;
+  grid-template-columns: 15fr 70fr 15fr;
+  column-gap: 2rem;
+  row-gap: 1rem;
+}
+
+.rev-star {
+}
+
+.rev-star-bar {
+  height: 0.5rem;
+  align-self: center;
+}
+
+.five-star-bg {
+  background: #377dff;
+}
+
+.four-star-bg {
+  background: #ddd;
+}
+
+.rev-star-per {
+  color: #767676;
+  font-size: 1.6rem;
+}
+
+.rev-sta-right {
+  justify-self: end;
+  align-self: center;
+}
+
+.rev-star-ave {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 0.5rem;
+  padding: 2.4rem 6.2rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.rev-ave-num {
+  color: #377dff;
+  font-size: 3.2rem;
+  font-weight: 600;
+  justify-self: center;
+}
+
+.rev-ave-star {
+  align-self: center;
+  justify-self: center;
+}
+
+.rev-ave-rat {
+  color: #767676;
+  font-size: 1.6rem;
+  justify-self: center;
+}
+
+.review-heading {
+  color: #000247;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.rev-comm-box {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  column-gap: 2rem;
+  margin-bottom: 3.2rem;
+}
+
+.rev-comm-left {
+}
+
+.rev-per-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.rev-comm-right {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 1.2rem;
+}
+
+.rev-per-name {
+  color: #000247;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.rev-rat-icon {
+  margin-left: 1rem;
+}
+
+.rev-comm-tit {
+  color: #377dff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.rev-comm-des {
+  color: #767676;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
 /* *Reviews Section End Here */
 
 /* *FAQ Section End Here */
