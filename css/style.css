@@ -1464,6 +1464,17 @@
 
 /* *Reviews Section End Here */
 
+.faq .panel {
+  padding: 0 1.8rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  line-height: 1.6;
+  border-radius: 5px;
+}
+
+.faq .panel p {
+  padding-bottom: 1.5rem;
+}
+
 /* *FAQ Section End Here */
 
 /* *Overview Right Side */
