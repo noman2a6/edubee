@@ -985,6 +985,7 @@
 .overview-course {
   display: grid;
   grid-template-columns: 70fr 30fr;
+  column-gap: 2.4rem;
 }
 
 .overview-course-left-side {
@@ -1005,6 +1006,7 @@
 .overview-heading-content .ratings {
   font-size: 1.6rem;
 }
+
 .total-ratings,
 .total-students {
   font-size: 1.6rem;
@@ -1389,7 +1391,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 0.5rem;
-  padding: 2.4rem 6.2rem;
+  padding: 2.4rem 6.4rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
@@ -1481,3 +1483,115 @@
 
 .overview-course-right-side {
 }
+
+.rt-archive-box {
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.archive-box-video {
+  margin-bottom: 4.8rem;
+}
+
+.archive-box-price {
+  margin-bottom: 3.2rem;
+}
+
+.new-price {
+  color: #000247;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.old-price {
+  color: #767676;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
+
+.tot-dis {
+  color: #000247;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
+
+.archive-box-summary {
+  margin-bottom: 3.2rem;
+}
+
+.arc-summ-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.7rem 0;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.list-br-top {
+  border-top: 1px solid #f6f6f6;
+}
+
+.arc-summ-left {
+  display: flex;
+}
+
+.arc-summ-icon {
+}
+
+.summ-icon {
+  font-size: 2.4rem;
+  color: #377dff;
+}
+
+.arc-summ-title {
+  font-size: 1.6rem;
+  color: #000247;
+  font-weight: 600;
+  margin-left: 1.5rem;
+  align-self: center;
+}
+
+.arc-summ-right {
+  justify-self: end;
+  color: #767676;
+  font-size: 1.6rem;
+}
+
+.archive-box-button {
+  
+}
+
+.arc-button {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.arc-button .btn {
+  width: 100%;
+}
+
+.arc-share-btn {
+display: flex;
+justify-content: center;
+}
+
+.arc-share-icons {
+
+}
+
+.arc-share-icon {
+font-size: 2.4rem;
+color: #377dff;
+font-weight: 600;
+cursor: pointer;
+}
+
+.arc-share-txt {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #377dff;
+  margin-left: 1.5rem;
+  align-self: center;
+}
+
