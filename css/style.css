@@ -1558,7 +1558,6 @@
 }
 
 .archive-box-button {
-  
 }
 
 .arc-button {
@@ -1572,19 +1571,18 @@
 }
 
 .arc-share-btn {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .arc-share-icons {
-
 }
 
 .arc-share-icon {
-font-size: 2.4rem;
-color: #377dff;
-font-weight: 600;
-cursor: pointer;
+  font-size: 2.4rem;
+  color: #377dff;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .arc-share-txt {
@@ -1594,4 +1592,13 @@ cursor: pointer;
   margin-left: 1.5rem;
   align-self: center;
 }
+
+/* *Other Courses By.. */
+
+.other-courses {
+  padding: 9.6rem 3.2rem;
+  margin: 0 auto;
+  background: #f9f9f9;
+}
+
 
