@@ -1601,4 +1601,107 @@
   background: #f9f9f9;
 }
 
+/* ******************************** */
+/* ABOUT US PAGE START HERE */
+/* ******************************** */
 
+/* ******************************** */
+/* Section Goals Start Here */
+/* ******************************** */
+
+.section-goals {
+  padding: 8rem 3.2rem 0;
+  margin: 0 auto;
+}
+
+.section-goals .subheading {
+  text-align: center;
+}
+
+.section-goals .heading-secondary {
+  text-align: center;
+}
+
+.goals-grid-boxs {
+}
+
+.goals-box {
+  box-shadow: 0 0.5px 3.8rem 0 rgb(156 156 156 / 26%);
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 2.4rem;
+  justify-items: center;
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+.goals-img {
+  display: block;
+  width: 60%;
+  transition: all 0.1s;
+}
+
+.goals-box:hover .goals-img {
+  transform: translateY(-1rem);
+}
+
+.goals-icon {
+  font-size: 2.4rem;
+  background: #377dff;
+  color: #fff;
+  padding: 1.6rem;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: absolute;
+  right: 6rem;
+  bottom: 52%;
+  box-shadow: 0 0 3rem 0 #c2d4f6;
+  transition: all 0.1s;
+}
+
+.goals-box:hover .goals-icon {
+  transform: translateX(-1rem);
+  background: #ffb701;
+}
+
+.goals-heading {
+  margin: 0;
+}
+
+.goals-descrition {
+  margin: 0;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.goals-btn {
+  text-decoration: none;
+  color: #377dff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.goals-gt {
+  transition: all 0.4s;
+}
+
+.goals-btn:hover .goals-gt {
+  margin-left: 0.8rem;
+}
+
+/* ******************************** */
+/* Section Experts. Start Here */
+/* ******************************** */
+
+/* ******************************** */
+/* Section Possibilities. Start Here */
+/* ******************************** */
+
+/* ******************************** */
+/* Section Instructor. Start Here */
+/* ******************************** */
+
+/* ******************************** */
+/* Section Testimonials. Start Here */
+/* ******************************** */
