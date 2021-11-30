@@ -1763,7 +1763,7 @@
   position: absolute;
   bottom: 5rem;
   left: -5rem;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .experts-summary:hover {
@@ -1786,6 +1786,94 @@
 /* Section Instructor. Start Here */
 /* ******************************** */
 
+.about-us-instructors {
+  padding: 9.8rem 3.2rem 12.8rem;
+}
+
 /* ******************************** */
 /* Section Testimonials. Start Here */
 /* ******************************** */
+
+.section-testimonials {
+  padding: 12.8rem 3.2rem;
+  margin: 0 auto;
+  background: #f3f7fa;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 3.2rem;
+}
+
+.testimonials-left {
+}
+
+.testi-heading {
+  line-height: 1.5;
+}
+
+.testi-sptxt {
+  color: #377dff;
+}
+
+.testi-description {
+  line-height: 1.8;
+}
+
+.testimonials-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.4rem;
+}
+
+.testimonials-box {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 1rem;
+  background: #fff;
+  margin: 1.5rem 0;
+  border-radius: 5px;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  box-shadow: 4px 0px 15px rgb(0 0 0 / 8%);
+}
+
+.testi-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000247;
+  align-self: center;
+}
+
+.testi-cont {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.8;
+}
+
+.testi-person {
+  display: flex;
+}
+
+.testi-per-img {
+  border-radius: 50%;
+  border: 5px solid #f9f9f9;
+}
+
+.testi-per-details {
+  margin-left: 1.5rem;
+}
+
+.testi-per-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000247;
+  margin: 1.3rem 0 0.7rem 0;
+}
+
+.testi-per-occup {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.8;
+}
+
