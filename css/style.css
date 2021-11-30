@@ -1605,12 +1605,16 @@
 /* ABOUT US PAGE START HERE */
 /* ******************************** */
 
+.about-us-heading {
+  margin: 0;
+}
+
 /* ******************************** */
 /* Section Goals Start Here */
 /* ******************************** */
 
 .section-goals {
-  padding: 8rem 3.2rem 0;
+  padding: 9.8rem 3.2rem 12.8rem;
   margin: 0 auto;
 }
 
@@ -1693,6 +1697,86 @@
 /* ******************************** */
 /* Section Experts. Start Here */
 /* ******************************** */
+
+.section-experts {
+  padding: 12.8rem 3.2rem;
+  margin: 0 auto;
+  background: #f3f7fa;
+}
+
+.experts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+}
+
+.experts-heading {
+  line-height: 1.5;
+}
+
+.experts-description {
+  line-height: 1.8;
+}
+
+.experts-left {
+}
+
+.experts-list-sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.6rem;
+}
+
+.experts-list-boxls,
+.experts-list-boxrs {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 2.4rem;
+}
+
+.experts-list-icon {
+  color: #377dff;
+  font-size: 1.2rem;
+}
+
+.experts-list-txt {
+  color: #000247;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
+
+.experts-right {
+  justify-self: end;
+  position: relative;
+}
+
+.experts-img {
+}
+
+.experts-summary {
+  padding: 2.4rem 4.8rem;
+  background: #377dff;
+  color: #fff;
+  border-radius: 5px;
+  line-height: 1.4;
+  font-weight: 600;
+  position: absolute;
+  bottom: 5rem;
+  left: -5rem;
+  transition: all .3s;
+}
+
+.experts-summary:hover {
+  transform: translateY(-1.2rem);
+}
+
+.experts-data {
+  font-size: 3.2rem;
+}
+
+.experts-data-txt {
+  font-size: 1.6rem;
+}
 
 /* ******************************** */
 /* Section Possibilities. Start Here */
